@@ -1,0 +1,103 @@
+{
+  "model": "llava-1.5-7b",
+  "overall": {
+    "aAcc": 46.06,
+    "qAcc": 1.8,
+    "fAcc": 0.0,
+    "n_questions": 1129,
+    "n_sets": 167,
+    "n_figures": 26
+  },
+  "by_category": {
+    "VS": {
+      "aAcc": 46.65,
+      "qAcc": 0.0,
+      "fAcc": 0.0,
+      "n_questions": 538,
+      "n_sets": 57,
+      "n_figures": 13
+    },
+    "VD": {
+      "aAcc": 45.52,
+      "qAcc": 2.73,
+      "fAcc": 0.0,
+      "n_questions": 591,
+      "n_sets": 110,
+      "n_figures": 13
+    }
+  },
+  "by_category_subcategory": {
+    "VS_chart": {
+      "aAcc": 36.41,
+      "qAcc": 0.0,
+      "fAcc": 0.0,
+      "n_questions": 206,
+      "n_sets": 22,
+      "n_figures": 3
+    },
+    "VS_table": {
+      "aAcc": 52.26,
+      "qAcc": 0.0,
+      "fAcc": 0.0,
+      "n_questions": 155,
+      "n_sets": 11,
+      "n_figures": 4
+    },
+    "VS_map": {
+      "aAcc": 50.0,
+      "qAcc": 0.0,
+      "fAcc": 0.0,
+      "n_questions": 96,
+      "n_sets": 11,
+      "n_figures": 3
+    },
+    "VS_ocr": {
+      "aAcc": 58.02,
+      "qAcc": 0.0,
+      "fAcc": 0.0,
+      "n_questions": 81,
+      "n_sets": 13,
+      "n_figures": 3
+    },
+    "VD_illusion": {
+      "aAcc": 48.61,
+      "qAcc": 3.23,
+      "fAcc": 0.0,
+      "n_questions": 144,
+      "n_sets": 31,
+      "n_figures": 2
+    },
+    "VD_math": {
+      "aAcc": 32.41,
+      "qAcc": 0.0,
+      "fAcc": 0.0,
+      "n_questions": 108,
+      "n_sets": 18,
+      "n_figures": 2
+    },
+    "VD_ocr": {
+      "aAcc": 57.3,
+      "qAcc": 9.52,
+      "fAcc": 0.0,
+      "n_questions": 89,
+      "n_sets": 21,
+      "n_figures": 3
+    },
+    "VD_figure": {
+      "aAcc": 55.0,
+      "qAcc": 0.0,
+      "fAcc": 0.0,
+      "n_questions": 80,
+      "n_sets": 20,
+      "n_figures": 3
+    },
+    "VD_video": {
+      "aAcc": 40.59,
+      "qAcc": 0.0,
+      "fAcc": 0.0,
+      "n_questions": 170,
+      "n_sets": 20,
+      "n_figures": 3
+    }
+  }
+}
