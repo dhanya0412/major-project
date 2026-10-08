@@ -1,0 +1,103 @@
+{
+  "model": "phi-3.5-vision-instruct",
+  "overall": {
+    "aAcc": 61.2,
+    "qAcc": 9.58,
+    "fAcc": 3.85,
+    "n_questions": 1129,
+    "n_sets": 167,
+    "n_figures": 26
+  },
+  "by_category": {
+    "VS": {
+      "aAcc": 63.94,
+      "qAcc": 1.75,
+      "fAcc": 0.0,
+      "n_questions": 538,
+      "n_sets": 57,
+      "n_figures": 13
+    },
+    "VD": {
+      "aAcc": 58.71,
+      "qAcc": 13.64,
+      "fAcc": 7.69,
+      "n_questions": 591,
+      "n_sets": 110,
+      "n_figures": 13
+    }
+  },
+  "by_category_subcategory": {
+    "VS_chart": {
+      "aAcc": 65.53,
+      "qAcc": 4.55,
+      "fAcc": 0.0,
+      "n_questions": 206,
+      "n_sets": 22,
+      "n_figures": 3
+    },
+    "VS_table": {
+      "aAcc": 63.87,
+      "qAcc": 0.0,
+      "fAcc": 0.0,
+      "n_questions": 155,
+      "n_sets": 11,
+      "n_figures": 4
+    },
+    "VS_map": {
+      "aAcc": 61.46,
+      "qAcc": 0.0,
+      "fAcc": 0.0,
+      "n_questions": 96,
+      "n_sets": 11,
+      "n_figures": 3
+    },
+    "VS_ocr": {
+      "aAcc": 62.96,
+      "qAcc": 0.0,
+      "fAcc": 0.0,
+      "n_questions": 81,
+      "n_sets": 13,
+      "n_figures": 3
+    },
+    "VD_illusion": {
+      "aAcc": 59.03,
+      "qAcc": 9.68,
+      "fAcc": 0.0,
+      "n_questions": 144,
+      "n_sets": 31,
+      "n_figures": 2
+    },
+    "VD_math": {
+      "aAcc": 56.48,
+      "qAcc": 5.56,
+      "fAcc": 0.0,
+      "n_questions": 108,
+      "n_sets": 18,
+      "n_figures": 2
+    },
+    "VD_ocr": {
+      "aAcc": 73.03,
+      "qAcc": 33.33,
+      "fAcc": 0.0,
+      "n_questions": 89,
+      "n_sets": 21,
+      "n_figures": 3
+    },
+    "VD_figure": {
+      "aAcc": 67.5,
+      "qAcc": 20.0,
+      "fAcc": 33.33,
+      "n_questions": 80,
+      "n_sets": 20,
+      "n_figures": 3
+    },
+    "VD_video": {
+      "aAcc": 48.24,
+      "qAcc": 0.0,
+      "fAcc": 0.0,
+      "n_questions": 170,
+      "n_sets": 20,
+      "n_figures": 3
+    }
+  }
+}
