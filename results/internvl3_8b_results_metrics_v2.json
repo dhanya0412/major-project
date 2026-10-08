@@ -1,0 +1,104 @@
+{
+  "model": "InternVL3-8B",
+  "overall": {
+    "aAcc": 63.95,
+    "qAcc": 30.33,
+    "fAcc": 36.42,
+    "n_questions": 1129,
+    "n_pairs": 455,
+    "n_figures": 346
+  },
+  "yes_rate": 62.62,
+  "by_category": {
+    "VS": {
+      "aAcc": 71.0,
+      "qAcc": 33.71,
+      "fAcc": 44.83,
+      "n_questions": 538,
+      "n_pairs": 178,
+      "n_figures": 116
+    },
+    "VD": {
+      "aAcc": 57.53,
+      "qAcc": 28.16,
+      "fAcc": 32.17,
+      "n_questions": 591,
+      "n_pairs": 277,
+      "n_figures": 230
+    }
+  },
+  "by_category_subcategory": {
+    "VS_chart": {
+      "aAcc": 71.36,
+      "qAcc": 46.05,
+      "fAcc": 32.5,
+      "n_questions": 206,
+      "n_pairs": 76,
+      "n_figures": 40
+    },
+    "VS_table": {
+      "aAcc": 76.13,
+      "qAcc": 34.88,
+      "fAcc": 78.57,
+      "n_questions": 155,
+      "n_pairs": 43,
+      "n_figures": 28
+    },
+    "VS_map": {
+      "aAcc": 64.58,
+      "qAcc": 12.5,
+      "fAcc": 31.82,
+      "n_questions": 96,
+      "n_pairs": 32,
+      "n_figures": 22
+    },
+    "VS_ocr": {
+      "aAcc": 67.9,
+      "qAcc": 22.22,
+      "fAcc": 38.46,
+      "n_questions": 81,
+      "n_pairs": 27,
+      "n_figures": 26
+    },
+    "VD_illusion": {
+      "aAcc": 63.89,
+      "qAcc": 33.33,
+      "fAcc": 38.71,
+      "n_questions": 144,
+      "n_pairs": 72,
+      "n_figures": 62
+    },
+    "VD_math": {
+      "aAcc": 42.59,
+      "qAcc": 16.67,
+      "fAcc": 8.33,
+      "n_questions": 108,
+      "n_pairs": 54,
+      "n_figures": 36
+    },
+    "VD_ocr": {
+      "aAcc": 77.53,
+      "qAcc": 55.81,
+      "fAcc": 58.14,
+      "n_questions": 89,
+      "n_pairs": 43,
+      "n_figures": 43
+    },
+    "VD_figure": {
+      "aAcc": 68.75,
+      "qAcc": 35.9,
+      "fAcc": 46.34,
+      "n_questions": 80,
+      "n_pairs": 39,
+      "n_figures": 41
+    },
+    "VD_video": {
+      "aAcc": 45.88,
+      "qAcc": 10.14,
+      "fAcc": 6.25,
+      "n_questions": 170,
+      "n_pairs": 69,
+      "n_figures": 48
+    }
+  }
+}
