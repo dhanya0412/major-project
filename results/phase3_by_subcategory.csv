@@ -1,0 +1,136 @@
+model,strategy,subcategory,n,aAcc,qAcc,fAcc
+Qwen2.5-VL-7B,Zero-shot,VD_figure,22,77.27,50.0,63.64
+Qwen2.5-VL-7B,Zero-shot,VD_illusion,40,60.0,20.0,31.25
+Qwen2.5-VL-7B,Zero-shot,VD_math,24,66.67,41.67,25.0
+Qwen2.5-VL-7B,Zero-shot,VD_ocr,20,95.0,90.0,90.0
+Qwen2.5-VL-7B,Zero-shot,VD_video,52,57.69,10.0,7.69
+Qwen2.5-VL-7B,Zero-shot,VS_chart,43,86.05,60.0,81.82
+Qwen2.5-VL-7B,Zero-shot,VS_map,24,62.5,25.0,16.67
+Qwen2.5-VL-7B,Zero-shot,VS_ocr,18,66.67,16.67,33.33
+Qwen2.5-VL-7B,Zero-shot,VS_table,42,78.57,33.33,71.43
+Qwen2.5-VL-7B,CoT,VD_figure,22,77.27,50.0,54.55
+Qwen2.5-VL-7B,CoT,VD_illusion,40,60.0,20.0,31.25
+Qwen2.5-VL-7B,CoT,VD_math,24,50.0,25.0,25.0
+Qwen2.5-VL-7B,CoT,VD_ocr,20,90.0,80.0,80.0
+Qwen2.5-VL-7B,CoT,VD_video,52,50.0,10.0,7.69
+Qwen2.5-VL-7B,CoT,VS_chart,43,72.09,40.0,36.36
+Qwen2.5-VL-7B,CoT,VS_map,24,62.5,12.5,16.67
+Qwen2.5-VL-7B,CoT,VS_ocr,18,50.0,0.0,16.67
+Qwen2.5-VL-7B,CoT,VS_table,42,83.33,41.67,71.43
+Qwen2.5-VL-7B,CoVe,VD_figure,22,86.36,70.0,72.73
+Qwen2.5-VL-7B,CoVe,VD_illusion,40,47.5,10.0,31.25
+Qwen2.5-VL-7B,CoVe,VD_math,24,66.67,33.33,37.5
+Qwen2.5-VL-7B,CoVe,VD_ocr,20,85.0,70.0,70.0
+Qwen2.5-VL-7B,CoVe,VD_video,52,53.85,10.0,15.38
+Qwen2.5-VL-7B,CoVe,VS_chart,43,81.4,53.33,72.73
+Qwen2.5-VL-7B,CoVe,VS_map,24,75.0,37.5,50.0
+Qwen2.5-VL-7B,CoVe,VS_ocr,18,55.56,16.67,16.67
+Qwen2.5-VL-7B,CoVe,VS_table,42,73.81,25.0,57.14
+Qwen2.5-VL-7B,Self-consistency,VD_figure,22,86.36,70.0,72.73
+Qwen2.5-VL-7B,Self-consistency,VD_illusion,40,60.0,25.0,31.25
+Qwen2.5-VL-7B,Self-consistency,VD_math,24,58.33,41.67,37.5
+Qwen2.5-VL-7B,Self-consistency,VD_ocr,20,95.0,90.0,90.0
+Qwen2.5-VL-7B,Self-consistency,VD_video,52,50.0,5.0,7.69
+Qwen2.5-VL-7B,Self-consistency,VS_chart,43,83.72,53.33,63.64
+Qwen2.5-VL-7B,Self-consistency,VS_map,24,66.67,37.5,33.33
+Qwen2.5-VL-7B,Self-consistency,VS_ocr,18,55.56,16.67,16.67
+Qwen2.5-VL-7B,Self-consistency,VS_table,42,80.95,41.67,57.14
+Qwen2.5-VL-7B,Vote (all 4),VD_figure,22,81.82,60.0,63.64
+Qwen2.5-VL-7B,Vote (all 4),VD_illusion,40,57.5,15.0,31.25
+Qwen2.5-VL-7B,Vote (all 4),VD_math,24,58.33,33.33,37.5
+Qwen2.5-VL-7B,Vote (all 4),VD_ocr,20,95.0,90.0,90.0
+Qwen2.5-VL-7B,Vote (all 4),VD_video,52,53.85,10.0,7.69
+Qwen2.5-VL-7B,Vote (all 4),VS_chart,43,88.37,66.67,81.82
+Qwen2.5-VL-7B,Vote (all 4),VS_map,24,70.83,37.5,50.0
+Qwen2.5-VL-7B,Vote (all 4),VS_ocr,18,55.56,16.67,16.67
+Qwen2.5-VL-7B,Vote (all 4),VS_table,42,78.57,33.33,71.43
+InternVL3-8B,Zero-shot,VD_figure,22,72.73,40.0,45.45
+InternVL3-8B,Zero-shot,VD_illusion,40,67.5,45.0,37.5
+InternVL3-8B,Zero-shot,VD_math,24,20.83,0.0,0.0
+InternVL3-8B,Zero-shot,VD_ocr,20,85.0,70.0,70.0
+InternVL3-8B,Zero-shot,VD_video,52,51.92,15.0,0.0
+InternVL3-8B,Zero-shot,VS_chart,43,65.12,26.67,36.36
+InternVL3-8B,Zero-shot,VS_map,24,62.5,25.0,0.0
+InternVL3-8B,Zero-shot,VS_ocr,18,72.22,33.33,33.33
+InternVL3-8B,Zero-shot,VS_table,42,73.81,25.0,71.43
+InternVL3-8B,CoT,VD_figure,22,72.73,40.0,45.45
+InternVL3-8B,CoT,VD_illusion,40,60.0,40.0,31.25
+InternVL3-8B,CoT,VD_math,24,62.5,33.33,37.5
+InternVL3-8B,CoT,VD_ocr,20,80.0,60.0,60.0
+InternVL3-8B,CoT,VD_video,52,48.08,5.0,7.69
+InternVL3-8B,CoT,VS_chart,43,65.12,26.67,36.36
+InternVL3-8B,CoT,VS_map,24,70.83,25.0,16.67
+InternVL3-8B,CoT,VS_ocr,18,66.67,16.67,33.33
+InternVL3-8B,CoT,VS_table,42,80.95,50.0,57.14
+InternVL3-8B,CoVe,VD_figure,22,59.09,20.0,54.55
+InternVL3-8B,CoVe,VD_illusion,40,65.0,35.0,37.5
+InternVL3-8B,CoVe,VD_math,24,45.83,16.67,12.5
+InternVL3-8B,CoVe,VD_ocr,20,90.0,80.0,80.0
+InternVL3-8B,CoVe,VD_video,52,51.92,15.0,7.69
+InternVL3-8B,CoVe,VS_chart,43,76.74,40.0,54.55
+InternVL3-8B,CoVe,VS_map,24,75.0,37.5,50.0
+InternVL3-8B,CoVe,VS_ocr,18,72.22,33.33,33.33
+InternVL3-8B,CoVe,VS_table,42,83.33,50.0,85.71
+InternVL3-8B,Self-consistency,VD_figure,22,77.27,50.0,54.55
+InternVL3-8B,Self-consistency,VD_illusion,40,65.0,40.0,43.75
+InternVL3-8B,Self-consistency,VD_math,24,70.83,50.0,37.5
+InternVL3-8B,Self-consistency,VD_ocr,20,80.0,60.0,60.0
+InternVL3-8B,Self-consistency,VD_video,52,48.08,10.0,0.0
+InternVL3-8B,Self-consistency,VS_chart,43,62.79,26.67,36.36
+InternVL3-8B,Self-consistency,VS_map,24,70.83,37.5,16.67
+InternVL3-8B,Self-consistency,VS_ocr,18,61.11,16.67,33.33
+InternVL3-8B,Self-consistency,VS_table,42,83.33,50.0,57.14
+InternVL3-8B,Vote (all 4),VD_figure,22,72.73,40.0,45.45
+InternVL3-8B,Vote (all 4),VD_illusion,40,65.0,40.0,37.5
+InternVL3-8B,Vote (all 4),VD_math,24,37.5,16.67,12.5
+InternVL3-8B,Vote (all 4),VD_ocr,20,80.0,60.0,60.0
+InternVL3-8B,Vote (all 4),VD_video,52,51.92,15.0,0.0
+InternVL3-8B,Vote (all 4),VS_chart,43,74.42,33.33,45.45
+InternVL3-8B,Vote (all 4),VS_map,24,62.5,25.0,0.0
+InternVL3-8B,Vote (all 4),VS_ocr,18,72.22,33.33,33.33
+InternVL3-8B,Vote (all 4),VS_table,42,83.33,50.0,85.71
+Phi-3.5-vision,Zero-shot,VD_figure,22,77.27,50.0,54.55
+Phi-3.5-vision,Zero-shot,VD_illusion,40,70.0,45.0,56.25
+Phi-3.5-vision,Zero-shot,VD_math,24,58.33,41.67,37.5
+Phi-3.5-vision,Zero-shot,VD_ocr,20,85.0,70.0,70.0
+Phi-3.5-vision,Zero-shot,VD_video,52,57.69,15.0,15.38
+Phi-3.5-vision,Zero-shot,VS_chart,43,65.12,26.67,36.36
+Phi-3.5-vision,Zero-shot,VS_map,24,50.0,12.5,0.0
+Phi-3.5-vision,Zero-shot,VS_ocr,18,61.11,16.67,33.33
+Phi-3.5-vision,Zero-shot,VS_table,42,66.67,33.33,42.86
+Phi-3.5-vision,CoT,VD_figure,22,63.64,40.0,36.36
+Phi-3.5-vision,CoT,VD_illusion,40,67.5,40.0,43.75
+Phi-3.5-vision,CoT,VD_math,24,70.83,50.0,37.5
+Phi-3.5-vision,CoT,VD_ocr,20,85.0,70.0,70.0
+Phi-3.5-vision,CoT,VD_video,52,36.54,0.0,0.0
+Phi-3.5-vision,CoT,VS_chart,43,48.84,6.67,18.18
+Phi-3.5-vision,CoT,VS_map,24,50.0,0.0,33.33
+Phi-3.5-vision,CoT,VS_ocr,18,33.33,0.0,0.0
+Phi-3.5-vision,CoT,VS_table,42,66.67,16.67,28.57
+Phi-3.5-vision,CoVe,VD_figure,22,59.09,30.0,36.36
+Phi-3.5-vision,CoVe,VD_illusion,40,75.0,55.0,50.0
+Phi-3.5-vision,CoVe,VD_math,24,45.83,33.33,0.0
+Phi-3.5-vision,CoVe,VD_ocr,20,85.0,70.0,70.0
+Phi-3.5-vision,CoVe,VD_video,52,59.62,20.0,15.38
+Phi-3.5-vision,CoVe,VS_chart,43,55.81,13.33,27.27
+Phi-3.5-vision,CoVe,VS_map,24,58.33,25.0,16.67
+Phi-3.5-vision,CoVe,VS_ocr,18,61.11,0.0,16.67
+Phi-3.5-vision,CoVe,VS_table,42,69.05,25.0,57.14
+Phi-3.5-vision,Self-consistency,VD_figure,22,68.18,30.0,45.45
+Phi-3.5-vision,Self-consistency,VD_illusion,40,65.0,35.0,50.0
+Phi-3.5-vision,Self-consistency,VD_math,24,62.5,41.67,25.0
+Phi-3.5-vision,Self-consistency,VD_ocr,20,85.0,70.0,70.0
+Phi-3.5-vision,Self-consistency,VD_video,52,55.77,20.0,15.38
+Phi-3.5-vision,Self-consistency,VS_chart,43,58.14,13.33,36.36
+Phi-3.5-vision,Self-consistency,VS_map,24,45.83,0.0,16.67
+Phi-3.5-vision,Self-consistency,VS_ocr,18,44.44,0.0,16.67
+Phi-3.5-vision,Self-consistency,VS_table,42,73.81,25.0,42.86
+Phi-3.5-vision,Vote (all 4),VD_figure,22,72.73,50.0,54.55
+Phi-3.5-vision,Vote (all 4),VD_illusion,40,77.5,60.0,56.25
+Phi-3.5-vision,Vote (all 4),VD_math,24,62.5,50.0,37.5
+Phi-3.5-vision,Vote (all 4),VD_ocr,20,90.0,80.0,80.0
+Phi-3.5-vision,Vote (all 4),VD_video,52,55.77,15.0,7.69
+Phi-3.5-vision,Vote (all 4),VS_chart,43,62.79,26.67,36.36
+Phi-3.5-vision,Vote (all 4),VS_map,24,58.33,0.0,16.67
+Phi-3.5-vision,Vote (all 4),VS_ocr,18,55.56,16.67,16.67
+Phi-3.5-vision,Vote (all 4),VS_table,42,69.05,25.0,57.14

@@ -1,0 +1,13 @@
+model,strategy,wrong_to_right,right_to_wrong,net,sign_test_p
+Qwen2.5-VL-7B,CoT,33,49,-16,0.097
+Qwen2.5-VL-7B,CoVe,21,31,-10,0.2116
+Qwen2.5-VL-7B,Self-consistency,33,38,-5,0.6353
+Qwen2.5-VL-7B,Vote (all 4),8,11,-3,0.6476
+InternVL3-8B,CoT,31,23,8,0.3409
+InternVL3-8B,CoVe,42,27,15,0.0912
+InternVL3-8B,Self-consistency,33,21,12,0.1337
+InternVL3-8B,Vote (all 4),13,3,10,0.0213
+Phi-3.5-vision,CoT,34,58,-24,0.016
+Phi-3.5-vision,CoVe,32,37,-5,0.6305
+Phi-3.5-vision,Self-consistency,36,44,-8,0.434
+Phi-3.5-vision,Vote (all 4),15,11,4,0.5572
